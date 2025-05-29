@@ -1,12 +1,44 @@
-h1{
-    background: #941a1a;
-    color: #ffffff;
+/* -------total applied css here------- */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: bolder;
 }
-h2{
-    background: #5a0e0e;
+/* -------total applied css here------- */
+
+
+/* -------fixed color bg------- */
+/* .active{
+    background: #171742;
+} */
+ /* -------fixed color bg------- */
+
+.navbar{
+    background: #4b1097;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 60px;
+    align-items: center;
+}
+.nav-text h2{
+    color: #ffff;
+    font-size: 30px;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style-type: none;
+    margin: 0px 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: all linear 0.5s;
     color: white;
 }
-h3{
-    background: #51b210;
-    color: #5a0e0e;
+.navbar ul li a:hover{
+    background: #171742;
 }
